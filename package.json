@@ -6,19 +6,43 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "slicemachine": "start-slicemachine",
+    "generated:types": "npx prismic-ts-codegen",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "@prismicio/client": "^6.7.1",
+    "@prismicio/helpers": "^2.3.5",
+    "@prismicio/next": "^0.1.5",
+    "@prismicio/react": "^2.5.0",
+    "@prismicio/slice-simulator-react": "^0.2.2",
+    "@prismicio/types": "^0.2.3",
     "next": "12.3.1",
+    "prismic-ts-codegen": "^0.1.5",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@storybook/addon-a11y": "^6.5.12",
+    "@storybook/addon-actions": "^6.5.12",
+    "@storybook/addon-essentials": "^6.5.12",
+    "@storybook/addon-interactions": "^6.5.12",
+    "@storybook/addon-links": "^6.5.12",
+    "@storybook/builder-webpack5": "^6.5.12",
+    "@storybook/manager-webpack5": "^6.5.12",
+    "@storybook/react": "^6.5.12",
+    "@storybook/testing-library": "^0.0.13",
     "@types/node": "18.7.23",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
+    "babel-loader": "^8.2.5",
     "eslint": "8.24.0",
     "eslint-config-next": "12.3.1",
+    "eslint-plugin-storybook": "^0.6.4",
+    "slice-machine-ui": "^0.5.0",
     "typescript": "4.8.4"
   }
 }

@@ -1,0 +1,7 @@
+{
+  "apiEndpoint": "https://mariegautron.prismic.io/api/v2",
+  "libraries": ["@/slices"],
+  "localSliceSimulatorURL": "http://localhost:3000/slice-simulator",
+  "storybook": "http://localhost:6006",
+  "_latest": "0.5.0"
+}
